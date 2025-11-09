@@ -23,7 +23,7 @@ export default function SearchBar() {
         className="flex-1 bg-transparent text-[#A2A2A2] text-[10px] outline-none placeholder:text-gray-400"
       />
 
-      {/* Glowing Search Button */}
+      
 <button
   type="button"
   className="flex items-center justify-center w-[32px] h-[32px] rounded-full ml-2 bg-[#1a1a1d] hover:bg-[#2a2a2e] transition"
@@ -31,7 +31,7 @@ export default function SearchBar() {
   <img
     src={search}
     alt="Search"
-    className="w-[20px] h-[18px] object-contain opacity-90"
+    className="w-[24px] h-[20px] object-contain opacity-90"
   />
 </button>
 

@@ -7,7 +7,7 @@ import avatar from '../../assets/Logo/TopSidebar/avatar.png'
 export default function TopSidebar() {
   return (
     <div className="flex w-full h-16 items-center text-left justify-between bg-[#0B0B0B] border-b border-[#1C1B20] text-white px-6 text-sm font-medium">
-      {/* ===== Left Section: Trading Info ===== */}
+     
       <div className="flex items-center space-x-10">
         <div className="flex flex-col items-start">
           <p style={{
@@ -23,7 +23,7 @@ export default function TopSidebar() {
           <p className="text-white text-[12px] font-bold">$10,859.00</p>
         </div>
 
-        {/* Margin Used / Free with small icon on left */}
+        
         <div className="flex flex-col items-start">
           <div className="flex items-center gap-2">
             <div className="">
@@ -76,12 +76,12 @@ export default function TopSidebar() {
           <span className="text-gray-400 text-xs">▼</span>
         </button>
 
-        {/* Notification Button */}
+        
         <img  src={notify}
               alt="User Avatar"
               className="w-[32px] h-[32px] rounded-full object-cover"/>
 
-        {/* User Profile */}
+        
         <div className="flex items-center justify-between bg-[#161616] border border-[#2C2C2E] rounded-full px-3 py-1.5 min-w-[165px]">
           <div className="flex items-center gap-2">
             <img
